@@ -29,6 +29,9 @@ li:nth-child(2) {
 a {
   color: red;
 }
+a:hover {
+  opacity: .5;
+}
 
 img:hover {
   opacity: .5;
@@ -37,7 +40,10 @@ img:hover {
 a:focus{
   opacity: .4;
 }
-
+body  {
+  background-color: tan;
+  opacity: .8;
+}
 
 
 a:active {
